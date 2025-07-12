@@ -26,6 +26,7 @@ if st.button("Say hello"):
 
 st.link_button("Go to gallery", "https://streamlit.io/gallery")
 
+col1, col2, col3 = st.columns(3)
 with col1:
     st.header("A cat")
     st.image("https://static.streamlit.io/examples/cat.jpg")
